@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card(person) {
+function Card({person}) {
   let name = person.name;
   let source = person.source;
   let phone = person.phone;
